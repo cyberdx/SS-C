@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: "ssctech-length-encoding"
+  main:
+    banner-mode: "off"
+    log-startup-info: true
+
+# Application specific configuration
+app:
+  version: "1.0.0"
+  description: "Run-Length Encoding Service"
+  
+# Logging configuration
+logging:
+  level:
+    com.ssctech.ssctech_test_task: INFO
+    org.springframework: WARN
+    root: WARN
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
